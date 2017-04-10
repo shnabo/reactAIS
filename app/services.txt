@@ -1,0 +1,25 @@
+var React = require('react')
+var ServiceList = require('./ServiceItem.jsx');
+
+var services = [{"id":1, "text":"Video Surveillance"},
+ {"id":2, "text":"Insurance Investigation"},
+ {"id":3, "text":"Corporate Investigation"},
+ {"id":3, "text":"License Plate Look-up"},
+ {"id":4, "text":"Infidelity/Spousal Investigation"},
+ {"id":5, "text":"Loss Prevention - Internal and External"},
+ {"id":6, "text":"De-bugging Commercial or Residencial Areas"},
+ {"id":7, "text":"Detailed Reporting"},
+ {"id":8, "text":"Conflict of Interest Investigation"},
+ {"id":9, "text":"Internal Disputes"},
+ {"id":10, "text":"Interviewing / Taking Statements"},
+ {"id":11, "text":"Security Consultation"},
+ {"id":12, "text":"Litigation Support"},
+ {"id":13, "text":"Process Serving"},
+ {"id":14, "text":"Social Engineering"},
+ {"id":15, "text":"Background Checks"}];
+
+
+
+
+
+module.exports = ServiceList;
