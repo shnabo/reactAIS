@@ -14,13 +14,19 @@ var App = React.createClass({
           <Link to="about">About</Link>
           <Link to="services">Services</Link>
           <Link to="contact">Contact</Link>
-        </ul>
-        <div className="content">
 
+          {/* this is the important part */}
+          <RouteHandler/>
         </div>
-      </div>
-    )
-  }
-});
+      );
+    }
+  });
+  var routes = (
+    <Route name="app" path="/" handler={App}>
+      <Route name="login" path="/login" handler={LoginHandler}/>
+    </Route>
+  );
 
-module.exports = App;
+ Router.run(routes,function (Handler) {
+   React.render(<Handler/>, document.body);
+ }
