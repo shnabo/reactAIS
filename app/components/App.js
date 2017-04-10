@@ -7,7 +7,7 @@ var App = React.createClass({
   render: function() {
     return (
       <div>
-        <h1>Simple SPA</h1>
+        <h1>Simple SPA2</h1>
           <div className="header">
             <li>Home</li>
             <li>About</li>
@@ -18,11 +18,5 @@ var App = React.createClass({
     );
     }
   });
-
-
-ReactDOM.render(
-  <App />,
-  document.getElementById('app')
-);
 
 module.exports = App;
