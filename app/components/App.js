@@ -10,6 +10,11 @@ const Home = () => (
     <h2>Home</h2>
   </div>
 )
+const InsuranceInvestigation = () => (
+  <div>
+    <h2> Insurance Investigation Services</h2>
+  </div>
+)
 
 const About = () => (
   <div>
@@ -24,7 +29,7 @@ const Contact = () => (
 
 const Topic = ({ match }) => (
   <div>
-    <h3>{match.params.topicId}</h3>
+    <h3>{match.params.serviceId}</h3>
   </div>
 )
 
@@ -33,18 +38,50 @@ const Services = ({ match }) => (
     <h2>Services</h2>
     <ul>
       <li>
-        <Link to={`${match.url}/surveillance`}>
-          Surveillance
+        <div>
+        <Link to={`${match.url}/insurance`}>
+          Insurance Investigation
         </Link>
+        </div>
       </li>
       <li>
-        <Link to={`${match.url}/insurancefraud`}>
-          Insurance Fraud
+        <Link to={`${match.url}/spousal`}>
+          Spousal Investigation
         </Link>
       </li>
       <li>
         <Link to={`${match.url}/backgroundchecks`}>
           Background Checks
+        </Link>
+      </li>
+      <li>
+        <Link to={`${match.url}/lossprevention`}>
+          Loss Prevention
+        </Link>
+      </li>
+      <li>
+        <Link to={`${match.url}/internaldisputes`}>
+          Internal Dispute Investigation
+        </Link>
+      </li>
+      <li>
+        <Link to={`${match.url}/debugging`}>
+          Debugging - Commerical & Residential
+        </Link>
+      </li>
+      <li>
+        <Link to={`${match.url}/securityconsultation`}>
+          Debugging - Commerical & Residential
+        </Link>
+      </li>
+      <li>
+        <Link to={`${match.url}/litigationsupport`}>
+          Litigation Support
+        </Link>
+      </li>
+      <li>
+        <Link to={`${match.url}/processserving`}>
+          Process Serving
         </Link>
       </li>
     </ul>
@@ -56,7 +93,7 @@ const Services = ({ match }) => (
   </div>
 )
 
-const BasicExample = () => (
+const Apple= () => (
   <Router>
     <div>
       <ul>
@@ -72,7 +109,8 @@ const BasicExample = () => (
       <Route path="/about" component={About}/>
       <Route path="/services" component={Services}/>
       <Route path="/contact" component={Contact}/>
+      <Route path="/services/insurance" component={InsuranceInvestigation}/>
     </div>
   </Router>
 )
-export default BasicExample
+export default Apple
