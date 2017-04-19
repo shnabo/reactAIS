@@ -1,29 +1,18 @@
-import React from 'react'
+import React from 'react';
+import Home from './NavHome.js';
+import Contact from './NavContact'
+import About from './NavAbout.js'
 import {
   BrowserRouter as Router,
   Route,
   Link
-} from 'react-router-dom'
+} from 'react-router-dom';
 
-const Home = () => (
-  <div>
-    <h2>Home</h2>
-  </div>
-)
+
+
 const InsuranceInvestigation = () => (
   <div>
     <h2> Insurance Investigation Services</h2>
-  </div>
-)
-
-const About = () => (
-  <div>
-    <h2>About</h2>
-  </div>
-)
-const Contact = () => (
-  <div>
-    <h2>Contact</h2>
   </div>
 )
 
@@ -65,11 +54,6 @@ const Services = ({ match }) => (
         </Link>
       </li>
       <li>
-        <Link to={`${match.url}/debugging`}>
-          Debugging - Commerical & Residential
-        </Link>
-      </li>
-      <li>
         <Link to={`${match.url}/securityconsultation`}>
           Debugging - Commerical & Residential
         </Link>
@@ -93,7 +77,7 @@ const Services = ({ match }) => (
   </div>
 )
 
-const Apple= () => (
+const App= () => (
   <Router>
     <div>
       <ul>
@@ -113,4 +97,4 @@ const Apple= () => (
     </div>
   </Router>
 )
-export default Apple
+export default App;
