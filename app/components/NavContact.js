@@ -1,4 +1,5 @@
 import React from 'react';
+import { alert, buttons, jumbotron } from 'bootstrap-css'
 
 const Contact = () => (
   <div>
@@ -24,7 +25,8 @@ const Contact = () => (
   </strong>
   </p>
   <p>
-    <button class="btn btn-primary"> Submit </button>
+    <button className="btn btn-danger"> Submit </button>
+
   </p>
   </div>
 )
