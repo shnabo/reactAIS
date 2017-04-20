@@ -1,13 +1,13 @@
 import React from 'react';
 import Home from './NavHome.js';
-import Contact from './NavContact'
-import About from './NavAbout.js'
+import Contact from './NavContact';
+import About from './NavAbout.js';
 import {
   BrowserRouter as Router,
   Route,
   Link
 } from 'react-router-dom';
-
+import TestService from './TestService.js'
 
 
 const InsuranceInvestigation = () => (
@@ -22,12 +22,13 @@ const InsuranceInvestigation = () => (
      </p>
   </div>
 )
+
 const SpousalInvestigation = () => (
   <div>
-    <h2> Spousal Investigation </h2>
+    <h2> Spousal Investigation Services</h2>
     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
       incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-      exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+      exercitation ulldamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
        mollit anim id est laborum.
@@ -40,7 +41,7 @@ const BackgroundChecks = () => (
     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
       incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
       exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-       dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+       dolor in reprehenderitate velit esse cillum dolore eu fugiat nulla pariatur.
        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
        mollit anim id est laborum.
      </p>
@@ -51,7 +52,7 @@ const LossPrevention = () => (
     <h2> Loss Prevention </h2>
     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
       incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-      exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+      exercitatios nisi ut aliquip ex ea commodo consequat. Duis aute irure
        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
        mollit anim id est laborum.
@@ -61,9 +62,7 @@ const LossPrevention = () => (
 const InternalDisputeInvestigation = () => (
   <div>
     <h2> Internal Dispute Investigation </h2>
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-      exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+    <p> Lorem ipsum dolor is nisi ut aliquip ex ea commodo consequat. Duis aute irure
        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
        mollit anim id est laborum.
@@ -76,8 +75,7 @@ const CommercialResidentialDebugging = () => (
     <h2> Commercial and Residential Debugging </h2>
     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
       incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-      exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-       dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      exercitation ulln voluptate velit esse cillum dolore eu fugiat nulla pariatur.
        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
        mollit anim id est laborum.
      </p>
@@ -85,26 +83,46 @@ const CommercialResidentialDebugging = () => (
 )
 const LitigationSupport = () => (
   <div>
-    <h2> Spousal Investigation </h2>
+    <h2> Litigation Support </h2>
     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
       incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
       exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+       Excepteuraecat cupidatat non proident, sunt in culpa qui officia deserunt
        mollit anim id est laborum.
      </p>
   </div>
 )
 const ProcessServing = () => (
   <div>
-    <h2> Background checks </h2>
+    <h2> Process Serving </h2>
     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
       incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
       exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-       dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+       daecat cupidatat non proident, sunt in culpa qui officia deserunt
        mollit anim id est laborum.
      </p>
+  </div>
+)
+const SecurityConsultation = () => (
+  <div>
+    <h2> Security Consultation </h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+      exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+       daecat cupidatat non proident, sunt in culpa qui officia deserunt
+       mollit anim id est laborum.
+     </p>
+  </div>
+)
+const LicensePlateLookup = () => (
+  <div>
+    <h3> License Plate Look-Up </h3>
+  </div>
+)
+const ConflictOfInterest = () => (
+  <div>
+    <h3> Conflict of Interest </h3>
   </div>
 )
 
@@ -126,39 +144,74 @@ const Services = ({ match }) => (
         </div>
       </li>
       <li>
+        <div>
         <Link to={`${match.url}/spousal`}>
           Spousal Investigation
         </Link>
+      </div>
       </li>
       <li>
+        <div>
         <Link to={`${match.url}/backgroundchecks`}>
           Background Checks
         </Link>
+      </div>
       </li>
       <li>
+        <div>
         <Link to={`${match.url}/lossprevention`}>
           Loss Prevention
         </Link>
+      </div>
       </li>
       <li>
+        <div>
         <Link to={`${match.url}/internaldisputes`}>
           Internal Dispute Investigation
         </Link>
+      </div>
       </li>
       <li>
-        <Link to={`${match.url}/securityconsultation`}>
+        <div>
+        <Link to={`${match.url}/commercialresidentialdebugging`}>
           Debugging - Commerical & Residential
         </Link>
+      </div>
       </li>
       <li>
+        <div>
+        <Link to={`${match.url}/securityconsultation`}>
+          Security Consultation
+        </Link>
+      </div>
+      </li>
+      <li>
+        <div>
         <Link to={`${match.url}/litigationsupport`}>
           Litigation Support
         </Link>
+      </div>
       </li>
       <li>
+        <div>
         <Link to={`${match.url}/processserving`}>
           Process Serving
         </Link>
+      </div>
+      </li>
+      <li>
+        <div>
+        <Link to={`${match.url}/licenseplatelookup`}>
+          License Plate Look-Up
+        </Link>
+      </div>
+      </li>
+      <li>
+        <div>
+        <Link to={`${match.url}/conflictofinterest`}>
+          Conflict of Interest
+        </Link>
+      </div>
       </li>
     </ul>
 
@@ -174,7 +227,7 @@ const App= () => (
     <div>
       <ul>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
+        <li><Link to="/about">About Us</Link></li>
         <li><Link to="/services">Services</Link></li>
         <li><Link to="/contact">Contact</Link></li>
       </ul>
@@ -186,6 +239,20 @@ const App= () => (
       <Route path="/services" component={Services}/>
       <Route path="/contact" component={Contact}/>
       <Route path="/services/insurance" component={InsuranceInvestigation}/>
+      <Route path="/services/spousal" component={SpousalInvestigation}/>
+      <Route path="/services/backgroundchecks" component={BackgroundChecks}/>
+      <Route path="/services/lossprevention" component={LossPrevention}/>
+      <Route path="/services/internaldisputes" component={InternalDisputeInvestigation}/>
+      <Route path="/services/commercialresidentialdebugging" component={CommercialResidentialDebugging}/>
+      <Route path="/services/litigationsupport" component={LitigationSupport}/>
+      <Route path="/services/processserving" component={ProcessServing}/>
+      <Route path="/services/securityconsultation" component={SecurityConsultation}/>
+      <Route path="/services/licenseplatelookup" component={LicensePlateLookup}/>
+      <Route path="/services/conflictofinterest" component={ConflictOfInterest}/>
+
+
+
+
     </div>
   </Router>
 )
