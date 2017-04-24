@@ -7,6 +7,9 @@ import {
   Route,
   Link
 } from 'react-router-dom';
+import { LinkContainer } from 'react-router-bootstrap';
+import { Button, Nav, Navbar, NavDropdown, MenuItem, NavItem } from 'react-bootstrap';
+import NavLink from 'react-router-dom';
 
 const InsuranceInvestigation = () => (
   <div>
@@ -223,12 +226,13 @@ const Services = ({ match }) => (
 const App= () => (
   <Router>
     <div className="topnav" id="myTopnav">
-      <ul>
-        <li><Link to="/"><button className="btn btn-success">Home</button></Link></li>
-        <li><Link to="/about"><button className="btn btn-success">About Us</button></Link></li>
-        <li><Link to="/services"><button className="btn btn-success">Services</button></Link></li>
-        <li><Link to="/contact"><button className="btn btn-success">Contact</button></Link></li>
-      </ul>
+      <div style={navStyle}>
+        <p><LinkContainer listStyle="none" to="/" activeClassName="home"><NavItem textDecoration="none"><button style={navStyle} className="btn btn-success">Home</button></NavItem></LinkContainer></p>
+        <p><LinkContainer to="/about"><NavItem><button className="btn btn-success">About Us</button></NavItem></LinkContainer></p>
+        <p><LinkContainer to="/services"><NavItem><button className="btn btn-success">Services</button></NavItem></LinkContainer></p>
+        <p><LinkContainer to="/contact"><NavItem ><button className="btn btn-success" textDecoration="none">Contact</button></NavItem></LinkContainer></p>
+      </div>
+
 
       <hr/>
 
@@ -254,4 +258,12 @@ const App= () => (
     </div>
   </Router>
 )
+const navStyle = {
+  textDecorationStyle: 'none',
+  textDecorationLine: 'none',
+  textDecoration: 'none',
+  box: 'border-box',
+}
+
+
 export default App;
