@@ -7,8 +7,6 @@ import {
   Route,
   Link
 } from 'react-router-dom';
-import TestService from './TestService.js'
-
 
 const InsuranceInvestigation = () => (
   <div>
@@ -224,12 +222,12 @@ const Services = ({ match }) => (
 
 const App= () => (
   <Router>
-    <div>
+    <div className="topnav" id="myTopnav">
       <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About Us</Link></li>
-        <li><Link to="/services">Services</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
+        <li><Link to="/"><button className="btn btn-success">Home</button></Link></li>
+        <li><Link to="/about"><button className="btn btn-success">About Us</button></Link></li>
+        <li><Link to="/services"><button className="btn btn-success">Services</button></Link></li>
+        <li><Link to="/contact"><button className="btn btn-success">Contact</button></Link></li>
       </ul>
 
       <hr/>

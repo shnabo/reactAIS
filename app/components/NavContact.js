@@ -1,5 +1,5 @@
 import React from 'react';
-import { alert, buttons, jumbotron } from 'bootstrap-css'
+
 
 const Contact = () => (
   <div>
@@ -11,17 +11,17 @@ const Contact = () => (
     </p>
     <p>
       <strong>
-      Name:
+      Name: <input></input>
     </strong>
     </p>
     <p>
       <strong>
-      Email:
+      Email: <input></input>
     </strong>
     </p>
   <p>
     <strong>
-    Message:
+    Message: <input></input>
   </strong>
   </p>
   <p>
