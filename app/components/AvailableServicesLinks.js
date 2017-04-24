@@ -96,3 +96,5 @@ const AvailableServicesLinks = ({ match }) => (
     )}/>
   </div>
 )
+
+export default AvailableServicesLinks;

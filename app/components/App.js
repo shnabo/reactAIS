@@ -10,7 +10,8 @@ import {
 import { LinkContainer } from 'react-router-bootstrap';
 import { Button, Nav, Navbar, NavDropdown, MenuItem, NavItem } from 'react-bootstrap';
 import NavLink from 'react-router-dom';
-import InsuranceInvestigation, {
+import InsuranceInvestigation,
+{
   SpousalInvestigation,
   BackgroundChecks,
   LossPrevention,
