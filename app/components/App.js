@@ -125,10 +125,10 @@ const App= () => (
   <Router>
     <div className="topnav" id="myTopnav">
       <div style={navStyle}>
-        <p><LinkContainer to="/" activeClassName="home"><NavItem textDecoration="none"><button style={navStyle} className="btn btn-success">Home</button></NavItem></LinkContainer></p>
-        <p><LinkContainer to="/about"><NavItem><button className="btn btn-success">About Us</button></NavItem></LinkContainer></p>
-        <p><LinkContainer to="/services"><NavItem><button className="btn btn-success">Services</button></NavItem></LinkContainer></p>
-        <p><LinkContainer to="/contact"><NavItem ><button className="btn btn-success" textDecoration="none">Contact</button></NavItem></LinkContainer></p>
+        <p id="navigation"><LinkContainer to="/" activeClassName="home"><NavItem textDecoration="none"><button style={navStyle} className="btn btn-success">Home</button></NavItem></LinkContainer></p>
+        <p id="navigation"><LinkContainer to="/about"><NavItem><button className="btn btn-success">About Us</button></NavItem></LinkContainer></p>
+        <p id="navigation"><LinkContainer to="/services"><NavItem><button className="btn btn-success">Services</button></NavItem></LinkContainer></p>
+        <p id="navigation"><LinkContainer to="/contact"><NavItem ><button className="btn btn-success" textDecoration="none">Contact</button></NavItem></LinkContainer></p>
       </div>
 
 

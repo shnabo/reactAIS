@@ -71,51 +71,106 @@ const CommercialResidentialDebugging = () => (
      </p>
   </div>
 )
-const LitigationSupport = () => (
-  <div>
-    <h2> Litigation Support </h2>
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-      exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-       dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-       Excepteuraecat cupidatat non proident, sunt in culpa qui officia deserunt
-       mollit anim id est laborum.
-     </p>
-  </div>
-)
-const ProcessServing = () => (
-  <div>
-    <h2> Process Serving </h2>
-    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-      exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-       daecat cupidatat non proident, sunt in culpa qui officia deserunt
-       mollit anim id est laborum.
-     </p>
-  </div>
-)
-const SecurityConsultation = () => (
-  <div>
-    <h2> Security Consultation </h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-      incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-      exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-       daecat cupidatat non proident, sunt in culpa qui officia deserunt
-       mollit anim id est laborum.
-     </p>
-  </div>
-)
-const LicensePlateLookup = () => (
-  <div>
-    <h3> License Plate Look-Up </h3>
-  </div>
-)
-const ConflictOfInterest = () => (
-  <div>
-    <h3> Conflict of Interest </h3>
-  </div>
+const LitigationSupport = function() {
+  function handleClick(e) {
+    e.preventDefault();
+    console.log('Clicked!');
+  }
 
-);
+  return (
+    <div>
+      <h2> Litigation Support </h2>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+         dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+         Excepteuraecat cupidatat non proident, sunt in culpa qui officia deserunt
+         mollit anim id est laborum.
+       </p>
+       <button onClick={handleClick}>Click Me</button>
+    </div>
+  )
+}
+const ProcessServing = function() {
+  function handleClick(e) {
+    e.preventDefault();
+    console.log('Clicked!');
+  }
+
+  return (
+    <div>
+      <h2> Process Serving </h2>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+         dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+         Excepteuraecat cupidatat non proident, sunt in culpa qui officia deserunt
+         mollit anim id est laborum.
+       </p>
+       <button onClick={handleClick}>Click Me</button>
+    </div>
+  )
+}
+const SecurityConsultation = function() {
+  function handleClick(e) {
+    e.preventDefault();
+    console.log('Clicked!');
+  }
+
+  return (
+    <div>
+      <h2> Security Consultation </h2>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+         dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+         Excepteuraecat cupidatat non proident, sunt in culpa qui officia deserunt
+         mollit anim id est laborum.
+       </p>
+       <button onClick={handleClick}>Click Me</button>
+    </div>
+  )
+}
+const LicensePlateLookup = function() {
+  function handleClick(e) {
+    e.preventDefault();
+    console.log('Clicked!');
+  }
+
+  return (
+    <div>
+      <h2> License Plate Look-Up </h2>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+         dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+         Excepteuraecat cupidatat non proident, sunt in culpa qui officia deserunt
+         mollit anim id est laborum.
+       </p>
+       <button onClick={handleClick}>Click Me</button>
+    </div>
+  )
+}
+const ConflictOfInterest= function() {
+  function handleClick(e) {
+    e.preventDefault();
+    console.log('Clicked!');
+  };
+
+  return (
+    <div>
+      <h2> Conflict of Interest </h2>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+         dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+         Excepteuraecat cupidatat non proident, sunt in culpa qui officia deserunt
+         mollit anim id est laborum.
+       </p>
+       <button onClick={handleClick}>Click Me</button>
+    </div>
+  )
+}
 
 export default InsuranceInvestigation;
 export {SpousalInvestigation,
