@@ -127,7 +127,7 @@ const App= () => (
   <Router>
     <div style={navStyle} className="topnav" id="myTopnav">
       <div>
-          <img src="../components/images/AISLOGO.jpeg"/>
+        <div><img source={require("./images/AISLOGO.png")} alt="logo"/></div>
         <p style={navStyle} id="navigation"><LinkContainer style={navStyle} to="/"><NavItem><button className="btn btn-success">Home</button></NavItem></LinkContainer></p>
         <p style={navStyle} id="navigation"><LinkContainer style={navStyle} to="/about"><NavItem><button className="btn btn-success">About Us</button></NavItem></LinkContainer></p>
         <p style={navStyle} id="navigation"><LinkContainer style={navStyle} to="/services"><NavItem><button className="btn btn-success">Services</button></NavItem></LinkContainer></p>
