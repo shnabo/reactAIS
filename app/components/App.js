@@ -126,8 +126,8 @@ const Services = ({ match }) => (
 const App= () => (
   <Router>
     <div style={navStyle} className="topnav" id="myTopnav">
+      <div style={navStyle}><img src={require("../components/images/ais_headerGREEN.jpg")} style={{width: '100%', height: '100%', display: 'inline-block', margin: '0'}} alt="logo"/></div>
       <div>
-        <div style={navStyle}><img src={require("../components/images/ais_header.jpg")} style={{width: '45%', height: '45%', display: 'inline-block', margin: '0'}}alt="logo"/></div>
         <p style={navStyle} id="navigation"><LinkContainer style={navStyle} to="/"><NavItem><button className="btn btn-success">Home</button></NavItem></LinkContainer></p>
         <p style={navStyle} id="navigation"><LinkContainer style={navStyle} to="/about"><NavItem><button className="btn btn-success">About Us</button></NavItem></LinkContainer></p>
         <p style={navStyle} id="navigation"><LinkContainer style={navStyle} to="/services"><NavItem><button className="btn btn-success">Services</button></NavItem></LinkContainer></p>
