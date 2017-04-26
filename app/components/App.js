@@ -120,7 +120,7 @@ const Services = ({ match }) => (
     )}/>
   </div>
 )
-
+// Navigation bar
 const App= () => (
   <Router>
     <div className="topnav" id="myTopnav">

@@ -11,17 +11,17 @@ const Contact = () => (
     </p>
     <p>
       <strong>
-      Name: <input></input>
+      Name: <input>name</input>
     </strong>
     </p>
     <p>
       <strong>
-      Email: <input></input>
+      Email: <input>email</input>
     </strong>
     </p>
   <p>
     <strong>
-    Message: <input></input>
+    Message: <input>message</input>
   </strong>
   </p>
   <p>
