@@ -124,11 +124,11 @@ const Services = ({ match }) => (
 const App= () => (
   <Router>
     <div style={navStyle} className="topnav" id="myTopnav">
-      <div style={navStyle}>
-        <p style={navStyle} id="navigation"><LinkContainer to="/" activeClassName="home"><NavItem><button style={navStyle} className="btn btn-success">Home</button></NavItem></LinkContainer></p>
-        <p style={navStyle} id="navigation"><LinkContainer to="/about"><NavItem><button className="btn btn-success">About Us</button></NavItem></LinkContainer></p>
-        <p style={navStyle} id="navigation"><LinkContainer to="/services"><NavItem><button className="btn btn-success">Services</button></NavItem></LinkContainer></p>
-        <p style={navStyle} id="navigation"><LinkContainer to="/contact"><NavItem ><button className="btn btn-success">Contact</button></NavItem></LinkContainer></p>
+      <div>
+        <p style={navStyle} id="navigation"><LinkContainer style={navStyle} to="/"><NavItem><button className="btn btn-success">Home</button></NavItem></LinkContainer></p>
+        <p style={navStyle} id="navigation"><LinkContainer style={navStyle} to="/about"><NavItem><button className="btn btn-success">About Us</button></NavItem></LinkContainer></p>
+        <p style={navStyle} id="navigation"><LinkContainer style={navStyle} to="/services"><NavItem><button className="btn btn-success">Services</button></NavItem></LinkContainer></p>
+        <p style={navStyle} id="navigation"><LinkContainer style={navStyle} to="/contact"><NavItem ><button className="btn btn-success">Contact</button></NavItem></LinkContainer></p>
       </div>
 
 
