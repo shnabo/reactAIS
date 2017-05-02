@@ -1304,11 +1304,7 @@
 			}
 
 		/* Header */
-.aislogo {
-	display: inline-block;
-	width: 50%;
-	length: 50%;
-}
+
 			#header {
 				min-height: 155px;
 				position: relative;
