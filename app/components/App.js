@@ -1,7 +1,5 @@
 import React from 'react';
-import Home from './NavHome.js';
-import Contact from './NavContact';
-import About from './NavAbout.js';
+
 import {
   BrowserRouter as Router,
   Route,
@@ -9,8 +7,7 @@ import {
 } from 'react-router-dom';
 import { LinkContainer } from 'react-router-bootstrap';
 import NavLink from 'react-router-dom';
-import Services from './NavServices.js';
-import {NavigationLinks} from './NavigationLinks.js';
+import {TopNavLinks} from './TopNavLinks.js';
 import {MainContent} from './MainContent.js';
 
 
@@ -23,9 +20,9 @@ const App= () => (
           <header id="header" className="container">
             <div className="row">
 
-              <div className="12u">
+              <div className="6u 12u">
                 <h1> AIS Investigation Services </h1>
-                  <NavigationLinks />
+                  <TopNavLinks />
               </div>
             </div>
           </header>

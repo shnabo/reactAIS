@@ -1,7 +1,7 @@
 import React from 'react';
 import {LinkContainer} from 'react-router-bootstrap';
 
-export const NavigationLinks = () => (
+export const TopNavLinks = () => (
 <nav id="nav">
   <LinkContainer to="/"><a id="navigation">Home</a></LinkContainer>
   <LinkContainer to="/about"><a id="navigation">About Us</a></LinkContainer>

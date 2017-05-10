@@ -2,7 +2,7 @@ import React from 'react';
 
 const InsuranceInvestigation = function() {
   function handleClick(e) {
-    e.preventDefault();
+    
     console.log('Clicked!');
   }
 
