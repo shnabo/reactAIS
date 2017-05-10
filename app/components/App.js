@@ -22,7 +22,7 @@ import InsuranceInvestigation,
   LicensePlateLookup,
   ConflictOfInterest
 } from './AvailableServices.js';
-import Services from './ServiceLinks.js';
+import Services from './NavServices.js';
 import {NavigationLinks} from './NavigationLinks.js';
 
 
@@ -38,8 +38,6 @@ const App= () => (
               <div className="12u">
                 <h1> AIS Investigation Services </h1>
                   <NavigationLinks />
-
-
               </div>
             </div>
           </header>
