@@ -1,15 +1,18 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {
   BrowserRouter as Router,
   Route,
   Link
 } from 'react-router-dom';
-import { LinkContainer } from 'react-router-bootstrap';
 
-
-const AvailableServicesLinks = ({ match }) => (
+const Topic = ({ match }) => (
   <div>
-    <h2>Services</h2>
+    <h3>{match.params.serviceId}</h3>
+  </div>
+)
+
+const Services = ({ match }) => (
+  <div>
     <ul>
       <li>
         <div>
@@ -97,4 +100,4 @@ const AvailableServicesLinks = ({ match }) => (
   </div>
 )
 
-export default AvailableServicesLinks;
+export default Services
