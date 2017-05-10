@@ -9,21 +9,9 @@ import {
 } from 'react-router-dom';
 import { LinkContainer } from 'react-router-bootstrap';
 import NavLink from 'react-router-dom';
-import InsuranceInvestigation,
-{
-  SpousalInvestigation,
-  BackgroundChecks,
-  LossPrevention,
-  InternalDisputeInvestigation,
-  CommercialResidentialDebugging,
-  SecurityConsultation,
-  LitigationSupport,
-  ProcessServing,
-  LicensePlateLookup,
-  ConflictOfInterest
-} from './AvailableServices.js';
 import Services from './NavServices.js';
 import {NavigationLinks} from './NavigationLinks.js';
+import {MainContent} from './MainContent.js';
 
 
 const App= () => (
@@ -66,22 +54,7 @@ const App= () => (
         <div id="content-wrapper">
 
           <div id="content">
-            <Route exact path="/" component={Home}/>
-            <Route path="/contact" component={Contact}/>
-            <Route path="/about" component={About}/>
-            <Route path="/services" component={Services}/>
-
-            <Route path="/services/insurance" component={InsuranceInvestigation}/>
-            <Route path="/services/spousal" component={SpousalInvestigation}/>
-            <Route path="/services/backgroundchecks" component={BackgroundChecks}/>
-            <Route path="/services/lossprevention" component={LossPrevention}/>
-            <Route path="/services/internaldisputes" component={InternalDisputeInvestigation}/>
-            <Route path="/services/commercialresidentialdebugging" component={CommercialResidentialDebugging}/>
-            <Route path="/services/litigationsupport" component={LitigationSupport}/>
-            <Route path="/services/processserving" component={ProcessServing}/>
-            <Route path="/services/securityconsultation" component={SecurityConsultation}/>
-            <Route path="/services/licenseplatelookup" component={LicensePlateLookup}/>
-            <Route path="/services/conflictofinterest" component={ConflictOfInterest}/>
+          <MainContent />
             </div>
         </div>
 
