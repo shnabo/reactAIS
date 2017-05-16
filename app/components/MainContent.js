@@ -10,7 +10,8 @@ import InsuranceInvestigation,
   LitigationSupport,
   ProcessServing,
   LicensePlateLookup,
-  ConflictOfInterest
+  ConflictOfInterest,
+  CorporateInvestigation,
 } from './AvailableServices.js';
 import {Route} from 'react-router-dom';
 import Home from './NavHome.js';
@@ -27,6 +28,7 @@ export const MainContent = () => (
 
     <Route path="/services/insurance" component={InsuranceInvestigation}/>
     <Route path="/services/spousal" component={SpousalInvestigation}/>
+    <Route path="/services/corporate" component={CorporateInvestigation}/>
     <Route path="/services/backgroundchecks" component={BackgroundChecks}/>
     <Route path="/services/lossprevention" component={LossPrevention}/>
     <Route path="/services/internaldisputes" component={InternalDisputeInvestigation}/>

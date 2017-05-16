@@ -4,14 +4,15 @@ import Component from 'react'
 const About = () => (
   <div>
     <h2>About Us</h2>
-    <p>
-      Yrs_
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-      ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-      laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-      in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
+    <ul>
+      <li> Over 30 years in business </li>
+      <li> Our company is Bonded and fully insured.</li>
+      <li> Our clients include Law Firms, Insurance Companies, Municipal and Regional levels of Government,
+         large and small businesses as well as private individuals. </li>
+      <li> Our clients include Law Firms, Insurance companies, Municipal and regional Governments
+        and businesses of various sizes as well as private individuals. </li>
+
+    </ul>
     <p>
       We offer a variety of services serving both Commercial and Residential clients.
     </p>

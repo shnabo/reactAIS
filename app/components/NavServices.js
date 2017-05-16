@@ -7,6 +7,10 @@ import {
 
 const Services = ({ match }) => (
   <div>
+    <h2> AIS Services provides a full range of Investigative Services. All of our Investigators are professionally
+      trained, are compliant with current legislation and have years of experience serving our clients. We ensure quality
+      work and the utmost of discretion.
+    </h2>
     <ul>
       <li>
         <div>
@@ -24,10 +28,17 @@ const Services = ({ match }) => (
       </li>
       <li>
         <div>
+        <Link to={`${match.url}/corporate`}>
+          Corporate Investigation
+        </Link>
+        </div>
+      </li>
+      <li>
+        <div>
         <Link to={`${match.url}/backgroundchecks`}>
           Background Checks
         </Link>
-      </div>
+        </div>
       </li>
       <li>
         <div>

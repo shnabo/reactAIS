@@ -1,5 +1,4 @@
 import React from 'react';
-
 import {
   BrowserRouter as Router,
   Route,
@@ -31,16 +30,9 @@ const App= () => (
 
               <div className="row">
                 <div className="6u 12u(mobile)">
-
-
-
                     <p>"An investment in knowledge pays the best interest." - Benjamin Franklin</p>
-
-
                 </div>
                 <div className="6u 12u(mobile)" >
-
-
                 </div>
               </div>
             </div>

@@ -25,7 +25,7 @@ const Contact = () => (
   </strong>
   </p>
   <p>
-    <button className="btn btn-danger"> Submit </button>
+    <button className="contact-us"> Submit </button>
 
   </p>
   </div>

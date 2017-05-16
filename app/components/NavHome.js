@@ -13,9 +13,11 @@ const Home = () => (
             </header>
             <a className="feature-image"><img src="../../../public/images/pic05.jpg" alt="" /></a>
             <p>
-              Duis neque nisi, dapibus sed mattis quis, rutrum accumsan sed.
-              Suspendisse eu varius nibh. Suspendisse vitae magna eget odio amet mollis
-              justo facilisis quis. Sed sagittis mauris amet tellus gravida lorem ipsum.
+              Since 1986, our business has operated on simple principles of trust, honesty and professional quality.
+              Our team of investigators and security experts are highly skilled in gathering evidence and producing
+              court quality reports.  We utilize the latest intelligence gathering techniques and procedures ensure cost
+               effective results. We exceed our client’s needs and expectations. We ensure our clients' concerns are met with
+               the utmost regard for their privacy.
             </p>
           </section>
 
@@ -30,9 +32,9 @@ const Home = () => (
             </header>
             <ul className="check-list">
               <li>Surveillance</li>
-              <li>Detailed Reporting</li>
+              <li>Witness Location</li>
               <li>Insurance Investigation</li>
-              <li>Spousal Investigation</li>
+              <li>General Inquiries</li>
               <li>Background Checks</li>
             </ul>
           </section>
@@ -49,17 +51,17 @@ const Home = () => (
             <ul className="quote-list">
               <li>
                 <img src="../../../public/images/pic06.jpg" alt="" />
-                <p>"Neque nisidapibus mattis"</p>
+                <p>"Very professional, easy to communicate with and discreet</p>
                 <span>Jane Doe, CEO of UntitledCorp</span>
               </li>
               <li>
                 <img src="../../../public/images/pic07.jpg" alt="" />
-                <p>"Lorem ipsum consequat!"</p>
+                <p>"Our company regularly uses AIS' services and is always pleased with the results</p>
                 <span>John Doe, President of FakeBiz</span>
               </li>
               <li>
                 <img src="../../../public/images/pic08.jpg" alt="" />
-                <p>"Magna veroeros amet tempus"</p>
+                <p>"Very detail-oriented and professional</p>
                 <span>Mary Smith, CFO of UntitledBiz</span>
               </li>
             </ul>
